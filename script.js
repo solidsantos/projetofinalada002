@@ -1,4 +1,4 @@
-async function cadastro() {
+function cadastro() {
     const produto = {
         cod: document.querySelector('#cod').value,
         prod: document.querySelector('#prod').value,
