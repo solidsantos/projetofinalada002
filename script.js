@@ -15,6 +15,7 @@ function cadastro() {
      </tr>    
      `;*/
     document.getElementById('table-product').appendChild(setTableRow(produto));
+    document.getElementById('form').reset();
 }
 function setTableRow(produto) {
     const row = document.createElement('tr');

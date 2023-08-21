@@ -13,6 +13,9 @@ table{
 th{
     border: 1px solid black;
 }
+td{
+    border: 1px solid black;
+}
 .form-custom{
     margin: 12px 0;
 }
