@@ -1,0 +1,18 @@
+body, html{
+    margin: 0;
+    height: 100%;
+}
+
+main{
+    padding: 75px 120px;
+}
+
+table{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+.form-custom{
+    margin: 12px 0;
+}
