@@ -4,7 +4,7 @@ async function cadastro() {
         prod: document.querySelector('#prod').value,
         prod_qtd: document.querySelector('#prod_qtd').value,
         price_prod: document.querySelector('#price_prod').value,
-        total: Number(document.querySelector('#prod_qtd').value) * Number(document.querySelector('#price_prod').value),
+        total: parseFloat(document.querySelector('#prod_qtd').value).toFixed(2) * parseFloat(document.querySelector('#price_prod').value).toFixed(2),
     }
     /*document.getElementById('table-product').innerHTML += `
      <tr>
